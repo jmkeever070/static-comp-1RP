@@ -1,0 +1,279 @@
+body {
+
+}
+
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+
+
+header {
+  background-color: #88BDF3;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  align-items: flex-end; 
+  color: #000000
+}
+
+.nav-links:hover {
+  color: #ffffff;
+}
+
+.fas {
+  padding-left: 32px;
+  padding-right: 13px;
+}
+
+.fa-dna {
+  padding-left: 9px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+h1 {
+  color: #ffffff;
+  padding-left: 49px;
+}
+
+.container {
+  width: 100vw;
+  background-color: #c0c0c0;
+}
+
+.main-words {
+  margin-top: 0;
+}
+
+.main-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  width: 21%;
+  height: 24rem;
+  margin: 1rem;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.66);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.66);
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.66);
+  color: #ffffff;
+  background-color:#000000;
+}
+
+.article-bottom {
+  padding: 0px 15px
+}
+
+.rec-name-here {
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-bottom: 7px;
+}
+
+.date {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.name-of-position {
+  margin-top: 2px;
+  font-size: 16px;
+}
+
+.article-top {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-image-1 {
+  background: url(images/White_Coby_2018_262.jpeg);
+  background-size: 41%;
+  background-position: 47% 6%;
+  background-repeat: no-repeat;
+  background-color: #000000;
+
+}
+
+.article-image-2 {
+  background: url(images/Williams_Kenny_2018_116.jpg);
+  background-size: 41%;
+  background-position: 47% 6%;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+.article-image-3 {
+  background: url(images/Johnson_Cameron_2018_59.jpg);
+  background-size: 41%;
+  background-position: 47% 6%;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+.article-image-4 {
+  background: url(images/Maye_Luke_mb_2017_45.jpg);
+  background-size: 41%;
+  background-position: 47% 6%;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+.article-image-5 {
+  background: url(images/Brooks_Garrison_2018_152.jpg);
+  background-size: 41%;
+  background-position: 47% 6%;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+.article-image-6 {
+  background: url(images/Little_Nassir_2018_101.jpg);
+  background-size: 41%;
+  background-position: 47% 6%;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+.article-image-7 {
+  background: url(images/Woods_Seventh_2018_68.jpg);
+  background-size: 41%;
+  background-position: 47% 6%;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+.article-image-8 {
+  background: url(images/Robinson_Brandon_2018_110.jpg);
+  background-size: 41%;
+  background-position: 47% 6%;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+.fa-location-arrow {
+  color: #88BDF3;
+  font-size: 27px;
+  height: 37px;
+  padding-left: 15px;
+  padding-top: 13px;
+}
+
+.views {
+  color: #ffffff;
+  height: 23px;
+  margin-bottom: 0px;
+}
+
+.num-of-views {
+  color: #ffffff;
+  font-size: 33px;
+  margin-left: 1px;
+  margin-right: 9px;
+  margin-top: 0px;
+}
+
+
+.form-link {
+  background-color: #88BDF3;
+  color: #ffffff;
+  height: 49px;
+  overflow-wrap: break-word;
+  padding-bottom: 9px;
+}
+
+.playlist {
+  font-size: 14px;
+  margin-bottom: 4px;
+
+}
+
+.name-of-position {
+  margin-bottom: 10px;
+}
+
+.number {
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 3px;
+}
+
+.attach-number {
+  font-size: 33px;
+  margin-bottom: 1px;
+  margin-left: 16px;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 799px) {
+  .article {
+    width: 29%;
+  }
+}
+
+@media screen and (max-width: 739px) {
+  .article {
+    width: 41%;
+  }
+}
+
+@media screen and (max-width:490px) {
+  .article {
+    width: 83%;
+  }
+
+  header {
+    display: block;
+  }
+
+  .nav-links {
+    display: block;
+    font-size: 39px;
+    text-align: center;
+    margin: 14px;
+  }
+
+  .fa-calender-alt {
+    margin-top: 10px;
+  }
+
+  .top-corner {
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #admin-user {
+    padding-top: 21px;
+    font-size: 21px;
+  }
+
+  .heels {
+    margin-top: 0px;
+  }
+}
+
+/*@media screen and (max-width: 715px) {
+ .article  {
+  width: 30%;
+}
+
+@media screen and (max-width: 546px) {
+  .article  {
+    width:50%;
+  }
+}
+*/
+
+

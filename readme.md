@@ -33,3 +33,14 @@ There were some issues when resizing to a smaller screen. Some of the classes in
 
 
 # Screenshots
+
+## My Page
+
+![image](https://user-images.githubusercontent.com/43790434/52248813-65918680-28ad-11e9-92bd-28170fdc043d.png)
+
+## My Page Mobile
+
+![image](https://user-images.githubusercontent.com/43790434/52248816-6cb89480-28ad-11e9-8f0e-4b440a75b3e0.png)
+
+## Turing Comp
+![image](https://user-images.githubusercontent.com/43790434/52248848-8c4fbd00-28ad-11e9-9401-2c51eaf97c03.png)
